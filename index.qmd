@@ -12,7 +12,7 @@ about:
       href: https://github.com
     - icon: file-person
       text: CV
-      href: test-cv.pdf
+      href: cv.pdf
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com
