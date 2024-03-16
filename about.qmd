@@ -10,9 +10,6 @@ about:
     - icon: github
       text: Github
       href: https://github.com
-    - icon: file-person
-      text: CV
-      href: cv.pdf
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com
@@ -21,7 +18,7 @@ about:
       href: https://scholar.google.com
 ---
 
- A longer paragraph about me and my interests and anything else I like to do.
+A longer paragraph about me and my interests and anything else I like to do.
 
 ## Education
 
