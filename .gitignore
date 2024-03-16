@@ -2,6 +2,9 @@
 .Rhistory
 .Rapp.history
 
+/.quarto/
+/_site/
+
 # Session Data files
 .RData
 .RDataTmp
@@ -38,9 +41,6 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
-
-# pkgdown site
-docs/
 
 # translation temp files
 po/*~
