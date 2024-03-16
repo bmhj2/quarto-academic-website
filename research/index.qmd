@@ -1,7 +1,7 @@
 ---
 title: "Research"
 listing:
-  type: table
+  type: default
   contents:
     - "*.qmd"
 ---

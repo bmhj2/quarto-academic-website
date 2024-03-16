@@ -1,6 +1,8 @@
 ---
 title: "My First Paper"
-author: Simone
+author: 
+  - Simone
+  - Matthew DeHaven
 date: "January 01, 2024"
 ---
 
