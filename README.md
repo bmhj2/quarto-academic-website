@@ -24,3 +24,6 @@ Add your own "profile.jpg" and "cv.pdf" to the repository.
 Then edit the text and options in each ".qmd" file.
 The "_quarto.yml" controls some site-wide settings, like the navbar links.
 You can create new papers in the listing by adding new ".qmd" files to the "research/" folder.
+Change the "favicon" by replacing "logo.png" with a new image.
+You can generate favicons at [favicon.io](https://favicon.io).
+You just need one of the png files, not all of the versions.
