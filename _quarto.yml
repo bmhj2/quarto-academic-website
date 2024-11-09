@@ -11,9 +11,18 @@ website:
         text: About
       - href: publications/index.qmd
         text: Publications
+      # - href: teaching.qmd
+      #   text: Teaching
       - href: cv.pdf
         text: CV
+  google-analytics: "G-M798KNBF6D"
+  page-footer: |
+    © 2024 Ben Jarman. [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa] except if noted. Powered by [Quarto](https://quarto.org/) and [quarto-academic-website](https://github.com/matdehaven/quarto-academic-website).
 
+    [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+    [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+    [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+  
 format:
   html:
     light: simplex

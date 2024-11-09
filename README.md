@@ -1,6 +1,6 @@
 # quarto-academic-website
-A template for a basic academic website made using [Quarto](https://quarto.org).
-It is meant to be a starting point for a Quarto based website, as Quarto has many more options than what is shown here.
+
+Built using [Quarto](https://quarto.org) and a forj of [Quarto Academic Website](https://github.com/matdehaven/quarto-academic-website) by Mat DeHaven.
 
 The website contains:
 
