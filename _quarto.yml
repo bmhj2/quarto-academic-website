@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
 
 website:
   title: "Home"
@@ -9,16 +9,18 @@ website:
     left:
       - href: about.qmd
         text: About
-      - href: research/index.qmd
-        text: Research
+      - href: publications/index.qmd
+        text: Publications
       - href: cv.pdf
         text: CV
 
 format:
   html:
-    theme: cosmo
+    light: simplex
+    dark: slate
     css: styles.css
     toc: true
+    email-obfuscation: javascript
 
 editor:
-  render-on-save: true
+  render-on-save: false
