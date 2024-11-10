@@ -25,10 +25,11 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/bmhj2
+appendix-style: none
 ---
 
 I am a criminologist and prison researcher, currently working on parole and prison release mechanisms.
 
-Most of my work has been driven by curiosity about how people survive and (sometimes) find positive, redemptive experiences, after being forced to serve a lengthy prison sentence imposed for a serious offence. I think about this as a human question with relevance and interest beyond its mere criminological or policy implications.
+My work is driven by curiosity: about how people survive and (sometimes) find positive, redemptive experiences, when they are forced by a serious conviction to spend a large part of their lives in prison. To me, this is a human question of interest beyond criminology and criminal justice policy.
 
-You can read more about my work by clicking the 'About' link in the page header. Use the links below to make contact, including for access to a preprint of publications that are paywalled or otherwise inaccessible.
+Click on the 'About' link above to read more about my work. Use the links below to make contact, including for access to a preprint of publications that are paywalled or otherwise inaccessible.
