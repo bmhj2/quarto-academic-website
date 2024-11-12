@@ -1,5 +1,6 @@
 ---
 title: "Welcome"
+description: "Ben Jarman's homepage"
 about:
   template: jolla
   image: profile.jpg

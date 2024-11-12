@@ -3,38 +3,72 @@ project:
   output-dir: _site
 
 website:
-  title: "Home"
-  favicon: logo.png
+  # announcement: 
+  #   icon: info-circle
+  #   dismissable: true
+  #   content: ""
+  #   type: primary
+  #   position: below-navbar
+  image: _assets/profile.jpg
+  title: "Ben Jarman"
+  site-url: https://benjarman.uk
+  favicon: _assets/logo.png
   navbar:
     left:
+      - href: index.qmd
+        text: Home
       - href: about.qmd
         text: About
       - href: publications.qmd
         text: Publications
       # - href: teaching.qmd
       #   text: Teaching
-      - href: cv.pdf
+      - href: _assets/cv.pdf
         text: CV
+      # - href: blog.qmd
+      #   text: Blog
+    # right:
+    #   - icon: rss
+    #     href: blog.xml
   google-analytics: "G-M798KNBF6D"
-  page-footer: |
-    © 2024 Ben Jarman. [CC BY-NC-SA 4.0][cc-by-nc-sa] except where otherwise noted.</br>
-    Powered by [Quarto](https://quarto.org/) and [quarto-academic-website](https://github.com/matdehaven/quarto-academic-website).
+  cookie-consent:
+    type: implied
+    style: simple
+  open-graph:
+    locale: en_GB
+    site-name: Ben Jarman
+  reader-mode: false
+  repo-url: https://github.com/bmhj2/bmhj2.github.io/
+  repo-actions: [edit, source, issue]
+  issue-url: https://github.com/bmhj2/bmhj2.github.io/issues
+  page-footer:
+    left: |
+      © 2009-2024 Ben Jarman. [CC BY-NC-SA 4.0][cc-by-nc-sa] except where otherwise noted.
 
-    [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-    [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-    [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
-  
+      [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+      [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+      [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+    right: |
+      Powered by [Quarto](https://quarto.org/) and [quarto-academic-website](https://github.com/matdehaven/quarto-academic-website).
+  search:
+    keyboard-shortcut: ["qq", "f"]
+    copy-button: true
+
+date-format: iso
+
 format:
   html:
     theme:
-      light: flatly
-      dark: darkly
+      light: [flatly, _light.scss]
+      dark: [darkly, _dark.scss]
     css: styles.css
     toc: true
     email-obfuscation: javascript
 
 editor:
-  render-on-save: false
+  render-on-save: true
 
 license: CC BY-NC-SA
-copyright: © Ben Jarman 2024
+copyright:
+  holder: Ben Jarman
+  year: [2009 - 2024]
