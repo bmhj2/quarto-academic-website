@@ -9,10 +9,10 @@ website:
   #   content: ""
   #   type: primary
   #   position: below-navbar
-  image: _assets/profile.jpg
+  image: profile.jpg
   title: "Ben Jarman"
   site-url: https://benjarman.uk
-  favicon: _assets/logo.png
+  favicon: logo.png
   navbar:
     left:
       - href: index.qmd
@@ -33,7 +33,7 @@ website:
   google-analytics: "G-M798KNBF6D"
   cookie-consent:
     type: implied
-    style: simple
+    style: headline
   open-graph:
     locale: en_GB
     site-name: Ben Jarman
@@ -43,7 +43,7 @@ website:
   issue-url: https://github.com/bmhj2/bmhj2.github.io/issues
   page-footer:
     left: |
-      © 2009-2024 Ben Jarman. [CC BY-NC-SA 4.0][cc-by-nc-sa] except where otherwise noted.
+      Site content © Ben Jarman 2009-2024 and [CC BY-NC-SA 4.0][cc-by-nc-sa] except where noted.
 
       [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
       [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
@@ -66,9 +66,7 @@ format:
     email-obfuscation: javascript
 
 editor:
-  render-on-save: true
+  render-on-save: false
 
 license: CC BY-NC-SA
-copyright:
-  holder: Ben Jarman
-  year: [2009 - 2024]
+copyright: "Site content © Ben Jarman, 2009 - 2024, unless otherwise noted."
